@@ -99,6 +99,32 @@ Anyone who wants to move from "we have goals" to "our goals actually steer the o
 
 ---
 
+## 5. Out of the Crisis / The New Economics — W. Edwards Deming (1982, 1994)
+
+**What it's about**
+
+Deming was a statistician and management consultant credited with teaching Japanese industry statistical process control and quality management in the 1950s, laying the groundwork for the Japanese post-war manufacturing miracle. He was largely unknown in the West until a 1980 NBC documentary ("If Japan Can, Why Can't We?") made him famous overnight in America. *Out of the Crisis* (1982) is his principal work — dense, polemical, part manual. *The New Economics* (1994, revised 2018) is the late, distilled statement of his management philosophy, built around the System of Profound Knowledge.
+
+**Key lessons**
+
+- **The System of Profound Knowledge (SoPK).** Deming's mature framework has four interacting parts:
+  1. **Appreciation for a system.** A system is a network of interdependent components working toward a shared aim. Optimizing components independently destroys the system. The manager's job is to optimize the whole, which often means sub-optimizing parts.
+  2. **Knowledge about variation.** Everything varies. Variation has two causes: common-cause (built into the system — the process itself produces it) and special-cause (something unusual happened — assignable, fixable). Most problems are common-cause — system problems, not people problems. Reacting to common-cause variation as if it were special-cause is **tampering** — and tampering makes the system worse, not better. This is Deming's most radical and most ignored teaching.
+  3. **Theory of knowledge.** Management is prediction. Data without a theory of how the system produces it is noise. The PDSA cycle (Plan, Do, Study, Act) is an empirical method for learning what changes actually improve the system.
+  4. **Psychology.** People are intrinsically motivated. Extrinsic motivators (rankings, ratings, bonuses tied to metrics) destroy intrinsic motivation, breed fear, and cause people to optimize the score rather than the system. Drive out fear. Abolish annual performance ratings and management by objective.
+
+- **The 14 Points (from *Out of the Crisis*).** A condensed management manifesto: create constancy of purpose, adopt the new philosophy, cease dependence on mass inspection, end awarding business on price alone, improve constantly and forever, institute training on the job, institute leadership, drive out fear, break down barriers between departments, eliminate slogans and exhortations, eliminate quotas and management by objective, remove barriers to pride of workmanship, institute a vigorous program of education and self-improvement, put everyone to work on the transformation.
+
+- **The Deadly Diseases.** Lack of constancy of purpose, emphasis on short-term profits, evaluation by performance ratings, mobility of management, running a company on visible figures alone, excessive medical costs, excessive liability costs. Note: performance ratings and MBO make his disease list — directly, by name.
+
+- **The Red Bead Experiment.** A famous demonstration: workers dip paddles into a bowl of red and white beads. Red beads are "defects." No matter how hard workers try, how motivated they are, or how much they're exhorted to "do better," the proportion of red beads is determined entirely by the system (the bowl's composition). Management praises the "best" workers and punishes the "worst" — but the differences are pure common-cause variation. The lesson: you cannot improve output by exhorting people to do better within a system that determines the result. You change the system.
+
+**Who should read it and why**
+
+Anyone who suspects their organization's goal-setting, performance rating, or metric-chasing is producing the wrong behavior. Deming is the corrective — he tells you why your OKRs might be creating the very dysfunction you're trying to fix. *The New Economics* is the more accessible entry point (shorter, built around SoPK); *Out of the Crisis* is denser but has the 14 Points and the full statistical argument. Fair warning: Deming is preachy, repetitive, and occasionally contradictory. He was 82 and 93 when the two books were published. The ideas are not optional — the writing sometimes is.
+
+---
+
 ## How They Relate
 
 There's a direct intellectual lineage, a parallel stream, and a deeper conceptual connection that ties all four together.
@@ -139,16 +165,34 @@ Meadows provides the theoretical frame that explains why all three of the others
 - Goldratt's fifth focusing step ("don't let inertia become the constraint — when you fix one bottleneck, another appears") is Meadows's system dynamics in action: the system reorganizes around the new constraint. You never "solve" it; you manage the sequence.
 - Grove says "a manager's output is the team's output." Meadows says "you can't optimize a system by optimizing each part independently — the interactions matter." Both are arguments against individual-hero management and for managing the system.
 
+**The inheritance map: SoPK as diagnostic overlay**
+
+Deming's System of Profound Knowledge is not just the upstream source — it's a diagnostic checklist for what each downstream book preserved and what it quietly dropped. The mapping:
+
+| SoPK part | Meadows | Goldratt | Grove | Doerr |
+|---|---|---|---|---|
+| 1. Appreciation for a system | Full inheritance — the entire book is this | Operationalizes it ("the constraint is the system's bottleneck") | Names the "limiting step" | Makes the system's goals visible |
+| 2. Knowledge about variation | Structural version (delays → oscillation) | Implicit (fluctuations accumulate at the constraint) | Largely absent | Absent — OKR scoring actively invites tampering |
+| 3. Theory of knowledge | Present ("a system's purpose is what it does") | Weak (PDSA not explicit) | Present (leading indicators, task-relevant maturity) | Present but leans to accounting, not PDSA |
+| 4. Psychology | Implicit (system traps as behavior patterns) | Absent | Partial (coaching, reviews as development) | Partial (CFRs) — but inside the individual-ranking frame Deming rejected |
+
+**Variation is the lost pillar.** All four books weakened or dropped Deming's teaching on common-cause vs. special-cause variation, and the two most popular (Grove, Doerr) are the most vulnerable to the exact failure mode Deming warned about: reacting to noise as if it were signal. A quarter-to-quarter wobble in a key result is usually common-cause variation, and the OKR review cadence tempts managers to "fix" it — which is tampering, which makes the system worse. A practitioner who knows the four books but not Deming will tend to over-react to quarterly noise and under-attend to the system producing it.
+
+**Documented divergence on psychology and on numbers.** Deming explicitly listed "management by objective" and "annual ratings of performance" as Deadly Diseases. Grove's iMBOs are a form of MBO. Doerr's OKRs are MBO-adjacent. The modern defense (decouple OKRs from compensation, make them transparent) addresses some of Deming's objections — but not the deeper one: a system of individual scored goals still shapes behavior around the score, not the system. Deming would say CFRs are a patch on a structural problem. Whether he's right is contested — but the tension is real and should be visible to anyone using the stack.
+
+**How strong is the "upstream" claim?** The Deming→Meadows line is real intellectual genealogy: Jay Forrester at MIT connects them — Forrester was Deming's contemporary and Meadows was Forrester's student. The Deming→Grove/Doerr line is weaker: neither Grove nor Doerr cites Deming as a primary influence, and both built on a different strand (Drucker's management tradition, Silicon Valley engineering culture). The "all four sit downstream of Deming" claim is cleanest stated as: all four operate within the management tradition Deming founded, whether they acknowledge it or not, and the SoPK lets you see both what they inherited and where they drifted.
+
 **The progression:**
 
 | Book | What it gives you | Level |
 |---|---|---|
+| Out of the Crisis / The New Economics (Deming) | The map — what to preserve, what to watch for | Foundation |
 | Thinking in Systems (Meadows) | The lens — how to see any situation as a system | Theory |
 | The Goal (Goldratt) | The method — how to find and manage the constraint in a system | Method |
 | High Output Management (Grove) | The manual — how to manage people within a system | Practice |
 | Measure What Matters (Doerr) | The tool — how to steer a system with OKRs | Instrument |
 
-Read in this order, each one makes the next more meaningful. Meadows gives you the why. Goldratt gives you the method. Grove gives you the how of managing people. Doerr gives you the specific instrument.
+Read in this order, each one makes the next more meaningful. Deming gives you the map — what each layer preserves and what it drops. Meadows gives you the why. Goldratt gives you the method. Grove gives you the how of managing people. Doerr gives you the specific instrument.
 
 ---
 
@@ -197,7 +241,7 @@ Read in this order, each one makes the next more meaningful. Meadows gives you t
 
 ### The deeper roots (if you want to go upstream)
 
-- **W. Edwards Deming — "Out of the Crisis"** and **"The New Economics."** The source. Systems thinking + management. Meadows, Goldratt, Grove, and Doerr all draw from this well. Deming's "System of Profound Knowledge" has four parts: appreciation for a system, knowledge about variation, theory of knowledge, psychology. Goldratt's TOC maps to the first two; Grove's management approach maps to the last two.
+- **W. Edwards Deming — "Out of the Crisis"** and **"The New Economics."** The source — now covered as Section 5 above, with the full SoPK inheritance map. The short version: Goldratt inherits parts 1–2, Grove inherits parts 3–4 partially, Doerr inherits part 3 but diverges on 2 and 4. Variation is the lost pillar across all four.
 - **Jay Forrester — "Industrial Dynamics."** The MIT work that gave Meadows her intellectual foundation. Forrester invented system dynamics.
 - **Peter Drucker — "The Effective Executive."** The management tradition Grove built on.
 
