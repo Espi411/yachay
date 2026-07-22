@@ -25,47 +25,65 @@ Each stage has one job:
 3. **Convert** — make direct booking easy and more attractive than Airbnb (price advantage, flexibility, first access to dates)
 4. **Retain** — after a direct booking, the loop shortens — they're already in your system
 
-## Immediate Action — THE 2 CURRENT GUESTS
+## Immediate Action — CAPTURE THE REMAINING GUEST + SET UP FOR NEXT ARRIVALS
 
-This is urgent. The window closes at checkout.
+One guest has departed (email not captured — that window is closed). One guest remains (2 weeks). Next arrivals in 10 days (Jul 31).
 
-**What KW and LM need to do (today/tomorrow):**
+The manual ask approach failed for the departed guest. The lesson: relying on someone to remember to ask is unreliable. We need a mechanism that captures emails automatically.
 
-- Message the current guests through Airbnb or speak to them in person
-- Frame: "We're building a direct-booking list for returning guests. If you'd like first access to future availability before we list publicly — and a better rate than the platform — leave us your email."
-- Or simpler, if it fits the interaction: "We loved having you — we're starting an Instagram for the property and a direct-booking list. Can we get your email?"
+### The WiFi-for-Email Exchange (primary capture method)
 
-**What Mescalito needs to build (this week):**
+This replaces the manual ask as the primary mechanism. The welcome card becomes the capture tool.
 
-- A signup form (Google Form is fastest — free, no setup, gives you a spreadsheet of emails)
-- A QR code that links to that form (can be printed on a card left in the property)
-- An Instagram account for the properties
+**The concept:**
 
-**The card to leave in properties (template):**
+Guests want WiFi. You want their email. Make it a trade.
 
-> Thanks for staying with us!
->
-> Want first access to future dates — before we list publicly — at a better rate?
->
-> Scan to join our guest list: [QR code → Google Form link]
->
-> Or follow us on Instagram: @[handle]
+1. Guest arrives → finds a welcome card in the property
+2. Card says: "To get the WiFi password, scan this QR code and enter your email"
+3. QR code → Google Form (name + email fields)
+4. On form submit → Google Forms confirmation message displays the WiFi password
+5. Email lands in a Google Sheet automatically — no one had to ask
 
-That's it. That's the entire capture mechanism. A card, a QR code, a form.
+**Why this works better than the manual ask:**
+
+- Works for every guest, every time — doesn't depend on KW/LM remembering
+- Fair value exchange — they get something they want (WiFi), you get something you want (email)
+- Captures at check-in, not checkout — no last-minute rush
+- Zero ongoing effort for KW/LM — the card does the work
+- The card can also include the Instagram handle for a soft follow
+
+**What Mescalito needs to build (this week, before Jul 31):**
+
+- A Google Form with: name, email, and a confirmation message containing the WiFi password
+- A QR code linking to that form (free QR generators work fine)
+- A welcome card template that says: "Welcome! For WiFi access, scan the QR code and enter your email — we'll show you the password. Follow us on Instagram: @[handle]"
+- Print cards for all 3 properties
+
+**For the remaining current guest (test run):**
+
+- KW or LM can try the card approach now — it's a low-pressure test: "We're setting up a new check-in system for future guests — would you mind testing it? You can get the WiFi password through this QR code"
+
+**Google Forms confirmation message — how to set it up:**
+
+Google Forms has a "Confirmation message" setting (Settings → Presentation → Confirmation message). Put the WiFi password there. When the guest submits the form, they see the password. Simple, no code needed.
+
+Alternative: use a form add-on or Apps Script to auto-email the password, but that's more complexity than needed for v1.
 
 ## First 30 Days
 
 ### Week 1 (Jul 19-25)
-- [ ] KW/LM: Ask the 2 current guests for email (in person or Airbnb message)
-- [ ] Mescalito: Create Google Form for guest signup
+- [ ] Mescalito: Create Google Form (name + email, confirmation message = WiFi password)
 - [ ] Mescalito: Generate QR code linking to the form
-- [ ] Mescalito: Create Instagram account (one combined account for all 3 properties — simplest to start)
-- [ ] Mescalito: Print welcome cards with QR code for each property
+- [ ] Mescalito: Create Instagram account (one combined account for all 3 properties)
+- [ ] Mescalito: Draft welcome card template (WiFi instructions + QR code + Instagram handle)
+- [ ] KW/LM: Test the card with the 1 remaining guest (low-pressure test run)
 
 ### Week 2 (Jul 26-Aug 1)
 - [ ] First Instagram posts — the properties themselves (clean, well-lit, honest)
-- [ ] KW/LM: Place welcome cards in all 3 properties
-- [ ] Test the signup flow end to end (have someone scan the QR and fill the form)
+- [ ] KW/LM: Print and place welcome cards in all 3 properties BEFORE next arrivals (Jul 31)
+- [ ] Test the signup flow end to end (have someone scan the QR and fill the form — does the WiFi password show?)
+- [ ] Next guests arrive ~Jul 31 — first real-world test of the WiFi-for-email capture
 
 ### Week 3-4 (Aug 2-15)
 - [ ] Set up a simple nurture email — one welcome email when they sign up, one follow-up 2 weeks later
