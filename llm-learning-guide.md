@@ -71,6 +71,29 @@ clicked when theory met practice.
 
 ---
 
+## 5. The Model Has No Tools — MCP Is How You Give It Some
+
+**What I expected:** The model can look things up, check the time, read files, search the web.
+
+**What actually happens:** The raw model can do none of that. It only generates text. Cloud products (ChatGPT, Claude) often have tools bolted on behind the scenes — web search, file access, code execution — so it looks like the model "can do things." A local model has nothing bolted on. It's the raw brain with no hands or eyes.
+
+**What MCP is:** Model Context Protocol (introduced by Anthropic, late 2024) is a standard for connecting external tools and data sources to a model. Think of it as a plug-and-socket system:
+- A filesystem MCP server → the model can read files
+- A web search MCP server → the model can search the internet
+- A SQLite MCP server → the model can query a database
+- A system clock MCP server → the model can check the time
+
+It's the answer to everything in entries 1-3: the model has no sources (MCP connects a document store), doesn't know the date (MCP connects a clock), can't introspect its training data (MCP could connect a search tool — though it still can't introspect, it could at least search the web for information about its own model).
+
+**What this means in practice:**
+- The llama-server chat UI has an "add MCP server" option. That's where you'd connect tools.
+- But adding tools too early masks the boundaries you're still learning. If you give the model web search on day one, you never learn that the raw model can't search. You get better answers but you don't understand why, and you can't explain it to a client.
+- The progression is: raw model (understand boundaries) → prompts (structured guidance) → RAG (ground in documents) → MCP tools (hands and eyes) → full agent stack (tools + memory + skills). Each layer adds capability, but you need to understand the layer underneath before you stack the next one.
+
+**The skill:** MCP is how you turn a text generator into a tool-using agent. But the judgment of when to add which tool, and what the model can and can't do without tools, is the consulting skill. Don't reach for tools before you understand the boundaries. A client asks "can the model search the web?" and you can answer: "The raw model can't. MCP can connect a web search tool. But here's what the model does without tools, and here's what changes when you add them."
+
+---
+
 ## What Comes Next
 
 This document grows with each practice session. Each entry is an "aha" moment — something that was surprising, counterintuitive, or clarifying. Not a log of what I did, but what I understood.
