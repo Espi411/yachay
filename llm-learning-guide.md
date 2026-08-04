@@ -94,6 +94,29 @@ It's the answer to everything in entries 1-3: the model has no sources (MCP conn
 
 ---
 
+## 6. Copilot at Work Doesn't Train on Your Documents — It Retrieves Them
+
+**What I expected:** Copilot is a model trained on Interac's SharePoint, emails, and Teams chats. It "knows" the enterprise content.
+
+**What actually happens:** The model itself (GPT-4 class) is a general model — same as what anyone gets. It didn't read Interac's documents during training. Microsoft doesn't train on your tenant data. What happens is closer to RAG (retrieval) than training:
+1. Your prompt goes to Microsoft Graph — the index of everything you have access to (emails, documents, chats, SharePoint)
+2. Semantic search finds the most relevant content based on your question
+3. That content gets injected into the context window — pasted in behind the scenes, just like you'd paste a document into a local model
+4. The model generates a response grounded in that content
+
+So the model isn't "trained on enterprise data." It retrieves enterprise data at query time and works with it in the context window. The difference is huge:
+- Training would mean Interac's content is permanently baked into the weights. It's not. The model forgets it the moment your query ends.
+- Retrieval means the content is fetched fresh each time, scoped to your permissions. You see what you're allowed to see. Nothing more.
+- This is exactly what feeding a document to a local model does — Copilot just automates the "find the right document" step.
+
+**What this means in practice:**
+- The privacy question: when you use Copilot at work, your data goes to Microsoft's cloud for the retrieval step and the generation step. Microsoft says they don't train on tenant data — but the data does leave your network. A local model never sends anything anywhere. That's the boundary you're building.
+- The MCP analogy is close in spirit — Copilot has a "tool" (Microsoft Graph) that gives it access to enterprise data. But the specific mechanism predates MCP. MCP is a newer, open standard for doing the same kind of thing. Copilot uses Microsoft's proprietary pipeline. Same concept, different plumbing.
+
+**The skill:** A client asks "should we let Copilot read our documents?" You can explain: the model doesn't learn your documents. It retrieves them per-query, scoped to user permissions, and forgets them after. The risk is in the retrieval pipeline (who can see what, where the data travels), not in the model's training. That's a more precise answer than most executives have.
+
+---
+
 ## What Comes Next
 
 This document grows with each practice session. Each entry is an "aha" moment — something that was surprising, counterintuitive, or clarifying. Not a log of what I did, but what I understood.
