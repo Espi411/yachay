@@ -1,4 +1,4 @@
-# Instagram Content Guide — @handfulhomes
+# Instagram Content Guide — @thehandfulhomes
 
 ## For KW & LM
 
@@ -78,4 +78,4 @@ That's the whole booking process. Don't complicate it.
 
 ## Log
 
-- 2026-08-27: Created for KW & LM. @handfulhomes account live, bio set, first photos coming from KW.
+- 2026-08-27: Created for KW & LM. @thehandfulhomes account live, bio set, first photos coming from KW.

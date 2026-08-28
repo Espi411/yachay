@@ -17,7 +17,7 @@ Welcome!
 
 We hope you love it here.
 
-Follow us on Instagram @handfulhomes
+Follow us on Instagram @thehandfulhomes
 for availability, returning-guest rates,
 and local tips.
 
@@ -31,7 +31,7 @@ Back:
 WiFi: [PASSWORD]
 
 Questions during your stay?
-Message us on Instagram @handfulhomes
+Message us on Instagram @thehandfulhomes
 or contact your host directly.
 ```
 
@@ -55,7 +55,7 @@ For WiFi access:
 
 [QR CODE HERE]
 
-Follow us on Instagram @handfulhomes
+Follow us on Instagram @thehandfulhomes
 for availability and returning-guest rates.
 ```
 
@@ -63,7 +63,7 @@ Back:
 
 ```
 Questions during your stay?
-Message us on Instagram @handfulhomes
+Message us on Instagram @thehandfulhomes
 or contact your host directly.
 
 Thank you for staying with us!

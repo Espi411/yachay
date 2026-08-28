@@ -88,7 +88,7 @@ Once Instagram exists and has a few posts, add the email capture layer.
 
 ## Still Open
 
-- Instagram handle: @handfulhomes (picked Aug 27)
+- Instagram handle: @thehandfulhomes (picked Aug 27)
 
 ---
 

@@ -1,4 +1,4 @@
-# Instagram Bio — @handfulhomes
+# Instagram Bio — @thehandfulhomes
 
 ## Options (pick one or mix and match)
 
