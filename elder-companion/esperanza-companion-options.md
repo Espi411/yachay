@@ -211,7 +211,6 @@ You are present. You listen. You have the off switch. You watch for agitation. Y
 ### Step 5: Only if it works
 
 - Look for a geriatric psychologist as a design partner (who do you know? who does KW know?)
-- Think about the Mac mini (always-on dedicated device, not your work Mac)
 - Consider the service model (customization for other families)
 
 ---
@@ -227,3 +226,4 @@ You are present. You listen. You have the off switch. You watch for agitation. Y
 ## Log
 
 - 2026-08-28: Esperanza companion system prompt drafted. Hardware options assessed (Pi recommended, iPad fallback). Clinical risk acknowledged. "Telepathic conversations" noted as key design input. Next: test prompt on Mac, then decide on hardware.
+- 2026-08-28: New Mac mini announced (M6/M5 Pro, available Sep 22). M6/32GB/512GB recommended as dedicated always-on companion server — replaces the "Mac mini pending" placeholder. Pre-ordered. The M4 MacBook remains the prototyping/learning machine; the Mac mini becomes production.

@@ -36,9 +36,9 @@ This is a product that uses AI to solve a human problem you're living with daily
 ## The Honest Constraints
 
 - **Time:** 20 hrs/week, 7PM-1AM, across ALL projects. Starting bank gig Nov 1. Mum needs care. Digital product with JW still open.
-- **Capital:** Minimal. Mac M4/24GB running local LLMs is the infrastructure. No budget for developers or clinical consultants yet.
+- **Capital:** Minimal. Mac M4/24GB running local LLMs is current infrastructure. Mac mini (M6, 32GB) pre-ordered Sep 2026 — becomes the dedicated always-on companion server. No budget for developers or clinical consultants yet.
 - **Clinical expertise:** Zero for dementia. The dad version doesn't need it. The mum version does — that's a real gap.
-- **Infrastructure:** Local LLM (llama.cpp on Mac) is running. Privacy-preserving by design — conversations never leave the hardware. This is a genuine advantage over cloud-based competitors.
+- **Infrastructure:** Local LLM (llama.cpp on Mac) is running. Privacy-preserving by design — conversations never leave the hardware. This is a genuine advantage over cloud-based competitors. Current: M4 MacBook (learning + prototyping). Next: M6 Mac mini 32GB (always-on production server for JW + Esperanza companions).
 
 ---
 
@@ -103,3 +103,4 @@ Start thinking about:
 ## Log
 
 - 2026-08-27: KW said "someone should build this" during a conversation about Mescalito's mum (Esperanza, 81, dementia) and KW & LM's dad (82, sharp, fake news prone). Two use cases identified. Dad version chosen as prototype — lower risk, testable feedback. Project exploration doc written. System prompt is next step.
+- 2026-08-28: JW voice bot built (Telegram → whisper → local LLM → say → Telegram, verified 27/27). Esperanza companion system prompt drafted. Hardware options assessed for Esperanza (Pi recommended). New Mac mini announced (M6/M5 Pro, available Sep 22) — M6/32GB/512GB recommended as dedicated always-on companion server. Pre-ordered.
