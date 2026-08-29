@@ -25,16 +25,16 @@ The pitch isn't "buy an AI platform." The pitch is: "We can help your CIU delive
 
 ## The Entry Point
 
-**You have a direct line in.** LM is the lead architect of the team that offered you the bank gig. LM also works at/with Muskoka. This is not a cold approach — this is a warm introduction through someone who already knows your work, trusts you, and is already interested in the Muskoka angle.
+**You have a warm connection with crossover.** LM is the lead architect who offered you the bank gig. LM is not at Muskoka directly, but is within the inner circle — overlapping relationships, shared network. LM is already interested in the Muskoka angle. This is not a cold approach, but it's not a direct inside line either. LM can open doors and make introductions.
 
 **The approach:**
 
-1. **LM first** — warm conversation. LM offered you the bank gig, which means they know your capabilities and trust your judgment. They're already interested in the Muskoka angle. A conversation about Muskoka's modernization goals, with you bringing the research and the demo, is natural. LM can tell you who the CIU director is, what the internal politics are, and whether there's appetite.
-2. **The CIU director** — their job is to find efficiency. If LM introduces you and you show a demo, the CIU director brings it to council. You don't have to.
-3. **Suzanne Olimer, Commissioner of Finance and Corporate Services** — she oversees IT and wrote the budget report that named "modernization" as a priority. LM may have a direct line to her.
+1. **LM first** — warm conversation. LM offered you the bank gig, knows your capabilities, and is already interested in the Muskoka angle. Talk about what you've found in the research. LM may know who the CIU director is, what the internal politics are, and who to talk to. LM may be able to make introductions through crossover connections.
+2. **The CIU director** — their job is to find efficiency. If you get an introduction (through LM or otherwise) and show a demo, the CIU director brings it to council.
+3. **Suzanne Olimer, Commissioner of Finance and Corporate Services** — she oversees IT and wrote the budget report that named "modernization" as a priority.
 4. **The CAO** — overall administrative leader. Staff-level conversation first.
 
-The original research said "staff first, not council first." LM IS the staff connection. This is the path.
+The original research said "staff first, not council first." LM's crossover network is the path to staff. Start there.
 
 ## The Demo to Build
 
@@ -78,7 +78,7 @@ One municipality at $50K implementation + $3K/month retainer = $86K year one. Si
 
 ## Next Steps (in order)
 
-1. **Talk to LM** — warm conversation. LM works at Muskoka, offered you the bank gig, and is already interested in the angle. Ask: who is the CIU director? Is there appetite for modernization? What's the internal political landscape? Would LM introduce you to the right people?
+1. **Talk to LM** — warm conversation. LM offered you the bank gig and is interested in the Muskoka angle. Within the inner circle, lots of crossover. Ask: who does LM know at Muskoka? Who is the CIU director? Is there appetite for modernization? Can LM make an introduction?
 2. **Find and read the Strategic Plan 2023-2026** — check muskoka.on.ca/en/finance-and-administration/plans-studies-and-reports.aspx
 3. **Read recent council minutes** (last 3 meetings) — see what they discuss, what gets delayed, what frustrates them
 4. **Talk to mB** — clarify the collaboration shape, who does what, what his connections are
@@ -90,7 +90,7 @@ One municipality at $50K implementation + $3K/month retainer = $86K year one. Si
 
 | Name | Role | Source |
 |------|------|--------|
-| LM | Lead architect at Muskoka + offered Mescalito the bank gig | Direct relationship (co-host of rentals, KW's partner) |
+| LM | Lead architect (offered Mescalito the bank gig) — within Muskoka's inner circle, lots of crossover | Direct relationship (KW's partner, rental co-host) |
 | Jeff Lehman | District Chair | Website |
 | Suzanne Olimer | Commissioner of Finance and Corporate Services | 2024 Budget report |
 | Amy Back | District Clerk | Accessibility plan |
@@ -104,4 +104,4 @@ One municipality at $50K implementation + $3K/month retainer = $86K year one. Si
 
 ## Log
 
-- 2026-08-28: Initial research completed. Budget, multi-year plan, and financial statements downloaded and summarized. CIU identified as entry point. "Modernization of service delivery" identified as the opening. mB collaboration discussed on Telegram. LM identified as direct connection — lead architect at Muskoka, offered Mescalito the bank gig, already interested in the angle. Entry strategy: LM is the warm introduction. Next: talk to LM, read Strategic Plan, build demo.
+- 2026-08-28: Initial research completed. Budget, multi-year plan, and financial statements downloaded and summarized. CIU identified as entry point. "Modernization of service delivery" identified as the opening. mB collaboration discussed on Telegram. LM identified as warm connection — lead architect (offered bank gig), within Muskoka's inner circle, lots of crossover. Not a direct inside line but can open doors. Next: talk to LM, read Strategic Plan, build demo.
