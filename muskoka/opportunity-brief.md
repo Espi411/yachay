@@ -25,11 +25,16 @@ The pitch isn't "buy an AI platform." The pitch is: "We can help your CIU delive
 
 ## The Entry Point
 
-**Not council first. Staff first.**
+**You have a direct line in.** LM is the lead architect of the team that offered you the bank gig. LM also works at/with Muskoka. This is not a cold approach — this is a warm introduction through someone who already knows your work, trusts you, and is already interested in the Muskoka angle.
 
-1. The CIU director — their job is to find efficiency. If they see a demo, THEY bring it to council.
-2. Suzanne Olimer, Commissioner of Finance and Corporate Services — she oversees IT and wrote the budget report that named "modernization" as a priority.
-3. The CAO — overall administrative leader.
+**The approach:**
+
+1. **LM first** — warm conversation. LM offered you the bank gig, which means they know your capabilities and trust your judgment. They're already interested in the Muskoka angle. A conversation about Muskoka's modernization goals, with you bringing the research and the demo, is natural. LM can tell you who the CIU director is, what the internal politics are, and whether there's appetite.
+2. **The CIU director** — their job is to find efficiency. If LM introduces you and you show a demo, the CIU director brings it to council. You don't have to.
+3. **Suzanne Olimer, Commissioner of Finance and Corporate Services** — she oversees IT and wrote the budget report that named "modernization" as a priority. LM may have a direct line to her.
+4. **The CAO** — overall administrative leader. Staff-level conversation first.
+
+The original research said "staff first, not council first." LM IS the staff connection. This is the path.
 
 ## The Demo to Build
 
@@ -73,22 +78,23 @@ One municipality at $50K implementation + $3K/month retainer = $86K year one. Si
 
 ## Next Steps (in order)
 
-1. **Find and read the Strategic Plan 2023-2026** — check muskoka.on.ca/en/finance-and-administration/plans-studies-and-reports.aspx
-2. **Read recent council minutes** (last 3 meetings) — see what they discuss, what gets delayed, what frustrates them
-3. **Identify the CIU director** — search staff directory, LinkedIn, or call the main number
+1. **Talk to LM** — warm conversation. LM works at Muskoka, offered you the bank gig, and is already interested in the angle. Ask: who is the CIU director? Is there appetite for modernization? What's the internal political landscape? Would LM introduce you to the right people?
+2. **Find and read the Strategic Plan 2023-2026** — check muskoka.on.ca/en/finance-and-administration/plans-studies-and-reports.aspx
+3. **Read recent council minutes** (last 3 meetings) — see what they discuss, what gets delayed, what frustrates them
 4. **Talk to mB** — clarify the collaboration shape, who does what, what his connections are
 5. **Build ONE demo** — council minutes → actions pipeline. You already have the pattern from RTR.
 6. **Attend a council meeting** — in person or via webcast. See how they work, who's there.
-7. **Draft the approach email** — to the CIU director or Commissioner Olimer. Short, specific, with the demo attached.
+7. **Draft the approach email** — to the CIU director or Commissioner Olimer. Short, specific, with the demo attached. LM may be willing to make the introduction.
 
 ## Key Contacts
 
 | Name | Role | Source |
 |------|------|--------|
+| LM | Lead architect at Muskoka + offered Mescalito the bank gig | Direct relationship (co-host of rentals, KW's partner) |
 | Jeff Lehman | District Chair | Website |
 | Suzanne Olimer | Commissioner of Finance and Corporate Services | 2024 Budget report |
 | Amy Back | District Clerk | Accessibility plan |
-| (Unknown) | CIU Director | Need to find |
+| (Unknown) | CIU Director | LM likely knows — ask |
 
 **District address:** 70 Pine St, Bracebridge, ON P1L 1N3
 **Main phone:** (705) 645-2100
@@ -98,4 +104,4 @@ One municipality at $50K implementation + $3K/month retainer = $86K year one. Si
 
 ## Log
 
-- 2026-08-28: Initial research completed. Budget, multi-year plan, and financial statements downloaded and summarized. CIU identified as entry point. "Modernization of service delivery" identified as the opening. mB collaboration discussed on Telegram. Opportunity brief written. Next: read Strategic Plan, find CIU director, talk to mB, build demo.
+- 2026-08-28: Initial research completed. Budget, multi-year plan, and financial statements downloaded and summarized. CIU identified as entry point. "Modernization of service delivery" identified as the opening. mB collaboration discussed on Telegram. LM identified as direct connection — lead architect at Muskoka, offered Mescalito the bank gig, already interested in the angle. Entry strategy: LM is the warm introduction. Next: talk to LM, read Strategic Plan, build demo.
