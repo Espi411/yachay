@@ -2,7 +2,14 @@
 
 Public content repository — syntheses, guides, and learning materials.
 
+> **New here?** If you're looking for the Elder Companion AI project, start with the [Reading Guide](https://github.com/Espi411/strategy/blob/main/elder-companion/READING-GUIDE.md) (in the private strategy repo). It maps the full project — exploration, setup guide, system prompts, and the plan. The technical setup guide and system prompt below are the public-facing pieces; the strategy and clinical docs are private.
+
 ## What's Here
+
+### Elder Companion — Technical Setup
+- [`elder-companion/voice-setup-guide.md`](elder-companion/voice-setup-guide.md) — Step-by-step guide to setting up a Telegram voice bot that runs a local LLM companion (speech-to-text → local model → text-to-speech, all on-device). **Read this first if you're setting up the bot.**
+- [`elder-companion/system-prompt-dad.txt`](elder-companion/system-prompt-dad.txt) — System prompt for an intellectual companion: patient, curious, gentle media literacy, never condescending. **Read this before testing the bot.**
+- [`elder-companion/useful-commands.md`](elder-companion/useful-commands.md) — Quick reference: check installs, start/stop, read logs, troubleshoot. **Bookmark this for when something breaks.**
 
 ### Local LLM Guides
 - [`local-llm-regulated-work-guide.md`](local-llm-regulated-work-guide.md) — A practical guide to running a 14B language model locally for compliance, audit, and privacy-sensitive work. The main product document.
@@ -16,10 +23,6 @@ Public content repository — syntheses, guides, and learning materials.
 - [`one-minute-talks/001-four-books-one-system.md`](one-minute-talks/001-four-books-one-system.md) — Talk #001 script: Four Books, One System.
 - [`one-minute-talks/002-push-video-script.md`](one-minute-talks/002-push-video-script.md) — Talk #002 script: a 4-minute learning story about a first GitHub push.
 - [`one-minute-talks/recipe-card-template.md`](one-minute-talks/recipe-card-template.md) — Template for scripting future talks.
-
-### Elder Companion — Technical Setup
-- [`elder-companion/voice-setup-guide.md`](elder-companion/voice-setup-guide.md) — Step-by-step guide to setting up a Telegram voice bot that runs a local LLM companion (speech-to-text → local model → text-to-speech, all on-device).
-- [`elder-companion/system-prompt-dad.txt`](elder-companion/system-prompt-dad.txt) — System prompt for an intellectual companion: patient, curious, gentle media literacy, never condescending.
 
 ### Rental Marketing
 - [`rental-marketing/instagram-content-guide.md`](rental-marketing/instagram-content-guide.md) — Posting rhythm and content ideas for @thehandfulhomes.
