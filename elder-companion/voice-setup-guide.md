@@ -80,6 +80,42 @@ System Settings → Accessibility → Spoken Content → Voices (download new on
 5. Username: must end in `bot` (e.g., `jw_companion_bot`)
 6. Copy the bot token (looks like `7812345678:AAHx...long-string`)
 
+After step 6, you're done in Telegram. The rest happens on your Mac.
+
+You have the token now — next you create the env file, start the LLM server, and start the bot. Here's what to do:
+
+1. Create the env file:
+```bash
+nano ~/.config/sbx/cyborg-infra/scripts/elder-companion.env
+```
+
+2. Paste in this content (replace the values with your real ones):
+```bash
+ELDER_BOT_TOKEN=7812345678:AAHx-your-actual-token-here
+ELDER_ALLOWED_USERS=123456789,987654321
+ELDER_WHISPER_MODEL=~/whisper-models/ggml-base.en.bin
+ELDER_TTS_VOICE=Tom
+ELDER_TTS_RATE=175
+ELDER_MAX_HISTORY=16
+ELDER_MAX_TOKENS=200
+```
+
+3. For ELDER_ALLOWED_USERS — you need your Telegram user ID and JW's. To get them: message `@userinfobot` on Telegram from each phone, it replies with the numeric ID. Put both in, comma-separated.
+
+4. Save and exit (in nano: Ctrl+O, Enter, Ctrl+X)
+
+5. Start the LLM server in one terminal:
+```bash
+cd ~/.config/sbx/cyborg-infra && ./scripts/start-server.sh qwen-14b 8192
+```
+
+6. Start the bot in another terminal:
+```bash
+cd ~/.config/sbx/cyborg-infra/scripts && source elder-companion.env && python3 elder-companion-bot.py
+```
+
+7. Test it yourself — find your bot in Telegram, send `/start`, then hold the mic button and talk
+
 ---
 
 ## Step 2: Get JW's Telegram User ID (2 min)
