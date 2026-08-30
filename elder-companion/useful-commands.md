@@ -118,6 +118,28 @@ On JW's phone, in Telegram:
 2. Settings → Notifications → make sure the bot chat is not muted
 3. In the bot chat → three dots (top right) → Notifications → ON
 
+## Bot Commands (for JW)
+
+| Command | What it does |
+|---------|-------------|
+| /start | Greeting + lists all commands |
+| /reset | Clears conversation history (fresh start) |
+| /feedback | Share thoughts on the experience (goes to Mescalito) |
+| /remember [text] | Save something to come back to later |
+| /recall | See what you've asked to remember |
+
+## Reading JW's Conversation Logs
+
+```
+ls -la ~/.config/sbx/cyborg-infra/scripts/conversations/
+```
+
+Daily logs: `YYYY-MM-DD_userID.md`
+Feedback: `feedback.md`
+Remember items: `remember_userID.md`
+
+All stay on your Mac. Nothing leaves the hardware.
+
 ---
 
 ## File Locations
@@ -128,8 +150,11 @@ On JW's phone, in Telegram:
 | Config file (env) | `~/.config/sbx/cyborg-infra/scripts/elder-companion.env` |
 | System prompt (JW) | `~/.config/sbx/yachay/elder-companion/system-prompt-dad.txt` |
 | Setup guide | `~/.config/sbx/yachay/elder-companion/voice-setup-guide.md` |
-| Whisper models | `~/whisper-models/` |
 | This file | `~/.config/sbx/yachay/elder-companion/useful-commands.md` |
+| Whisper models | `~/whisper-models/` |
+| Conversation logs | `~/.config/sbx/cyborg-infra/scripts/conversations/` |
+| Feedback from JW | `~/.config/sbx/cyborg-infra/scripts/conversations/feedback.md` |
+| JW's remember items | `~/.config/sbx/cyborg-infra/scripts/conversations/remember_userID.md` |
 
 ---
 
