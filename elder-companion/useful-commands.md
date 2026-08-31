@@ -34,7 +34,7 @@ If it produces text, whisper works. If it errors, check the model path.
 ## Test TTS (say) Manually
 
 ```
-say -v Tom "Good to talk with you. What's on your mind today?"
+say -v Daniel "Good to talk with you. What's on your mind today?"
 ```
 
 You should hear it spoken. To list all English voices:
@@ -42,6 +42,10 @@ You should hear it spoken. To list all English voices:
 ```
 say -v '?' | grep en_
 ```
+
+Note: On macOS Sonoma, only a few voices are pre-installed (Samantha, Daniel, Aman/Siri). The others are listed but need to be downloaded from System Settings → Accessibility → Spoken Content → Voices. If `say -v Tom "test"` sounds the same as the default, Tom isn't installed and `say` is falling back to Samantha. Daniel is the best pre-installed male voice — calm, British, not robotic.
+
+To change the voice, edit `ELDER_TTS_VOICE=Daniel` in `elder-companion.env`.
 
 ## Test the LLM Server
 
@@ -62,17 +66,26 @@ cd ~/.config/sbx/cyborg-infra && ./scripts/start-server.sh qwen-14b 8192
 
 Terminal 2 — voice bot:
 ```
-cd ~/.config/sbx/cyborg-infra/scripts && source elder-companion.env && python3 elder-companion-bot.py
+cd ~/.config/sbx/cyborg-infra/scripts
+set -a && source elder-companion.env && set +a && python3 elder-companion-bot.py
 ```
+
+Note: `set -a` is required — it exports the env variables so Python can see them.
 
 ## Stop Everything
 
 - Bot: Ctrl+C in terminal 2
 - LLM server: Ctrl+C in terminal 1
+- If you get a 409 Conflict error, you have two bot instances running. Kill all and start one:
+```
+ps aux | grep elder-companion-bot
+killall python3
+```
+Then start fresh with one instance.
 
 ## Restart After a Reboot
 
-Same two commands as "Start Everything" above.
+Same two commands as "Start Everything" above. The `set -a` is required — without it the bot can't see the env variables and will fail with "ELDER_BOT_TOKEN is not set."
 
 ---
 

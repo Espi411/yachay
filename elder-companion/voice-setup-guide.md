@@ -111,8 +111,11 @@ cd ~/.config/sbx/cyborg-infra && ./scripts/start-server.sh qwen-14b 8192
 
 6. Start the bot in another terminal:
 ```bash
-cd ~/.config/sbx/cyborg-infra/scripts && source elder-companion.env && python3 elder-companion-bot.py
+cd ~/.config/sbx/cyborg-infra/scripts
+set -a && source elder-companion.env && set +a && python3 elder-companion-bot.py
 ```
+
+Note: `set -a` is required — it exports the env variables so Python can see them. Without it, `source` loads the variables into your shell but they don't get passed to the bot process.
 
 7. Test it yourself — find your bot in Telegram, send `/start`, then hold the mic button and talk
 
