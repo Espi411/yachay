@@ -153,6 +153,35 @@ Remember items: `remember_userID.md`
 
 All stay on your Mac. Nothing leaves the hardware.
 
+## Running the Analytics Dashboard
+
+```
+cd ~/.config/sbx/cyborg-infra/scripts
+python3 conversation-analytics.py
+```
+
+This produces a summary of JW's conversations without you reading every message:
+
+- **Time of day** — when does JW talk? Is he up at 3am? Morning person?
+- **Daily breakdown** — first message, last message, time span per day
+- **Topic themes** — what he talks about (US politics, health, history, etc.)
+- **Hallucination signals** — did JW push back on anything? How many factual claims did the LLM make? Pushback rate.
+- **Feedback** — his /feedback messages
+- **Remember items** — what he chose to save
+
+Options:
+```
+python3 conversation-analytics.py --days 7    # last 7 days only
+python3 conversation-analytics.py --detail   # show per-conversation breakdown
+```
+
+What to look for:
+- **Topic frequency** — what KW will ask about (Trump, US politics, Parkinson's, neuropathy)
+- **Late night activity** — is JW up at 3am? Over-rotating?
+- **Pushback rate** — is JW catching hallucinations? If pushback rate is 0% over many conversations, he's either not hallucinating or not catching them
+- **Conversation span** — is he talking for 10 minutes or 2 hours?
+- **Factual claim density** — higher = more surface for hallucination. Watch the ratio over time.
+
 ---
 
 ## File Locations
