@@ -184,6 +184,76 @@ What to look for:
 
 ---
 
+## Maintenance Check (monthly)
+
+Check if anything needs updating:
+
+```
+brew outdated whisper-cpp ffmpeg
+```
+
+If anything shows up, update it:
+```
+brew upgrade whisper-cpp ffmpeg
+```
+
+Then restart the bot.
+
+### When to upgrade the model
+
+The model (Qwen 14B) is a fixed file. It never changes on its own. Consider upgrading when:
+- JW's pushing back a lot (high hallucination rate in analytics)
+- A new model lands on the HN digest that's clearly better for conversation
+- The Mac mini arrives (more RAM = can run bigger models)
+
+### How to upgrade the model
+
+1. Check if a GGUF exists on HuggingFace:
+```
+curl -s "https://huggingface.co/api/models?search=glm-5.3-flash+gguf&sort=downloads&direction=-1&limit=5" | python3 -c "import sys,json; [print(m['id']) for m in json.load(sys.stdin)]"
+```
+
+2. Add it to start-server.sh (the script already has a model selector)
+
+3. Test with the system prompt before switching JW over:
+```
+cd ~/.config/sbx/cyborg-infra && ./scripts/start-server.sh new-model 8192
+```
+
+4. Keep the old model — don't delete Qwen 14B until you're sure the new one is better.
+
+### Better TTS voices (free, on macOS)
+
+System Settings → Accessibility → Spoken Content → Voices → download Siri voices (1-4). They're higher quality than Daniel. Test with:
+```
+say -v 'Siri' "Good to talk with you. What's on your mind today?"
+```
+
+If better, change `ELDER_TTS_VOICE=Siri` in the env file and restart.
+
+### Restart after any update
+
+```
+# Terminal 1: LLM server (restart to pick up new model/binary)
+cd ~/.config/sbx/cyborg-infra && ./scripts/start-server.sh qwen-14b 8192
+
+# Terminal 2: Bot (restart to pick up code changes)
+cd ~/.config/sbx/cyborg-infra/scripts
+set -a && source elder-companion.env && set +a && python3 elder-companion-bot.py
+```
+
+### Pull code updates from GitHub
+
+If Corina made changes to the bot or docs, pull them:
+```
+cd ~/.config/sbx/cyborg-infra && git pull
+cd ~/.config/sbx/yachay && git pull
+```
+
+Then restart the bot to pick up any changes.
+
+---
+
 ## File Locations
 
 | What | Where |
