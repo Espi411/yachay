@@ -194,8 +194,7 @@ In a second Terminal window:
 
 ```bash
 cd ~/.config/sbx/cyborg-infra/scripts
-source elder-companion.env
-python3 elder-companion-bot.py
+set -a && source elder-companion.env && set +a && python3 elder-companion-bot.py
 ```
 
 You should see:
@@ -265,7 +264,8 @@ Once you've tested it yourself and it works:
 cd ~/.config/sbx/cyborg-infra && ./scripts/start-server.sh qwen-14b 8192
 
 # Terminal 2: Bot
-cd ~/.config/sbx/cyborg-infra/scripts && source elder-companion.env && python3 elder-companion-bot.py
+cd ~/.config/sbx/cyborg-infra/scripts
+set -a && source elder-companion.env && set +a && python3 elder-companion-bot.py
 ```
 
 ---
