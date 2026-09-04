@@ -12,6 +12,7 @@ Public content repository — syntheses, guides, and learning materials.
 - [`elder-companion/useful-commands.md`](elder-companion/useful-commands.md) — Quick reference: check installs, start/stop, read logs, troubleshoot. **Bookmark this for when something breaks.**
 
 ### Local LLM Guides
+- [`local-llm-regulated-work-guide.md`](local-llm-regulated-work-guide.md) — A practical guide to running a 14B language model locally for compliance, audit, and privacy-sensitive work. The main product document.
 - [`llm-learning-guide.md`](llm-learning-guide.md) — "Aha" moments from hands-on practice with a local LLM. The conceptual insights that change how you think about AI.
 - [`llm-ownership-guide.md`](llm-ownership-guide.md) — The levels of "owning" a large language model, from hosted APIs to fine-tuning your own. Written for someone who wants to understand the landscape without being an ML engineer.
 
